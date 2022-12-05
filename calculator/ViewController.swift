@@ -7,13 +7,46 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+enum modes {
+    case notSet
+    case addition
+    case subtraction
+    case multiplication
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    
+    var labelString: String = "0"
+    var currentMode: modes = .notSet
+    var savedNum: Int = 0
+    var lastButtonWasMode: Bool = false
+
+    func updateText() {
+        
+    }
+    
+    func changeModes(newMode: modes) {
+        
     }
 
-
+    @IBAction func didPressPlus(_ sender: Any) {
+    }
+    
+    @IBAction func didPressMinus(_ sender: Any) {
+    }
+    
+    @IBAction func didPressMultiply(_ sender: Any) {
+    }
+    
+    @IBAction func didPressEquals(_ sender: Any) {
+    }
+    
+    @IBAction func didPressClear(_ sender: Any) {
+    }
+    
+    @IBAction func didPressButton(_ sender: UIButton) {
+    }
 }
 

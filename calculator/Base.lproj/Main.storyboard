@@ -32,6 +32,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G4U-uU-ipP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNi-bN-e8n">
                                 <rect key="frame" x="111" y="212" width="91" height="152.66666666666663"/>
@@ -43,6 +46,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqT-lP-4Ah"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJM-8U-0Tb">
                                 <rect key="frame" x="212" y="212" width="91" height="152.66666666666663"/>
@@ -54,6 +60,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTe-6z-sGD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuH-eX-Jtk">
                                 <rect key="frame" x="313" y="212" width="91" height="152.66666666666663"/>
@@ -65,6 +74,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sw7-zY-Uyh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dh6-3N-jKM">
                                 <rect key="frame" x="10" y="374.66666666666669" width="91" height="152.33333333333331"/>
@@ -76,6 +88,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D9g-6K-ooq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bs-v1-Alh">
                                 <rect key="frame" x="10" y="537" width="91" height="152.66666666666663"/>
@@ -87,6 +102,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdL-9z-oT6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dif-vh-e9k">
                                 <rect key="frame" x="111" y="374.66666666666669" width="91" height="152.33333333333331"/>
@@ -98,6 +116,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ow7-P6-aPK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2D-Er-LcH">
                                 <rect key="frame" x="111" y="537" width="91" height="152.66666666666663"/>
@@ -109,6 +130,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lr1-tG-08d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV2-VC-dGx">
                                 <rect key="frame" x="10" y="699.66666666666663" width="192" height="152.33333333333337"/>
@@ -120,6 +144,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cpd-Do-2Lo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-dv-mfI">
                                 <rect key="frame" x="212" y="374.66666666666669" width="91" height="152.33333333333331"/>
@@ -131,6 +158,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E1V-mp-3ok"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2P-OK-zM7">
                                 <rect key="frame" x="212" y="537" width="91" height="152.66666666666663"/>
@@ -142,6 +172,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVb-ml-km2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGT-SU-wFL">
                                 <rect key="frame" x="313" y="537" width="91" height="152.66666666666663"/>
@@ -153,6 +186,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5kV-rP-F3Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmG-Ng-eAk">
                                 <rect key="frame" x="212" y="699.66666666666663" width="91" height="152.33333333333337"/>
@@ -164,6 +200,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vr1-OI-U3K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0M-ln-Rp9">
                                 <rect key="frame" x="313" y="699.66666666666663" width="91" height="152.33333333333337"/>
@@ -175,6 +214,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8O7-As-HaA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-Qd-eHA">
                                 <rect key="frame" x="313" y="374.66666666666669" width="91" height="152.33333333333331"/>
@@ -186,6 +228,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" weight="thin" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dUp-K6-80F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -262,6 +307,9 @@
                             <constraint firstItem="ZJM-8U-0Tb" firstAttribute="leading" secondItem="JNi-bN-e8n" secondAttribute="trailing" constant="10" id="zfm-GR-KRd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="erM-OG-SLD" id="cC8-ae-IN6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
