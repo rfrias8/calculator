@@ -29,26 +29,61 @@ class ViewController: UIViewController {
             return
         }
         
+        if currentMode == .notSet {
+            savedNum = labelInt
+        }
+        
         label.text = "\(labelInt)"
     }
     
     func changeModes(newMode: modes) {
+        if savedNum == 0 {
+            return
+        }
         
+        currentMode = newMode
+        lastButtonWasMode = true
     }
 
     @IBAction func didPressPlus(_ sender: Any) {
+        changeModes(newMode: .addition)
     }
     
     @IBAction func didPressMinus(_ sender: Any) {
+        changeModes(newMode: .subtraction)
     }
     
     @IBAction func didPressMultiply(_ sender: Any) {
     }
     
     @IBAction func didPressEquals(_ sender: Any) {
+        guard let labelInt: Int = Int(labelString) else {
+            label.text = "Error"
+            return
+        }
+        
+        if (currentMode == .notSet || lastButtonWasMode) {
+            return
+        }
+        
+        if (currentMode == .addition) {
+            savedNum += labelInt
+        } else if(currentMode == .subtraction) {
+           savedNum -= labelInt
+        }
+        
+        currentMode = .notSet
+        labelString = "\(savedNum)"
+        updateText()
+        lastButtonWasMode = true
     }
     
     @IBAction func didPressClear(_ sender: Any) {
+        labelString = "0"
+        currentMode = .notSet
+        savedNum = 0
+        lastButtonWasMode = false
+        label.text = "0"
     }
         
     @IBAction func didPressNumber(_ sender: UIButton) {
@@ -56,6 +91,12 @@ class ViewController: UIViewController {
             label.text = "Error"
             return
         }
+        
+        if lastButtonWasMode {
+            lastButtonWasMode = false
+            labelString = "0"
+        }
+            
         labelString = labelString.appending(stringValue)
         updateText()
     }
