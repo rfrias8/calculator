@@ -58,6 +58,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didPressMultiply(_ sender: Any) {
+        changeModes(newMode: .multiplication)
     }
     
     @IBAction func didPressEquals(_ sender: Any) {
@@ -74,6 +75,8 @@ class ViewController: UIViewController {
             savedNum += labelInt
         } else if(currentMode == .subtraction) {
            savedNum -= labelInt
+        }else if(currentMode == .multiplication) {
+            savedNum *= labelInt
         }
         
         currentMode = .notSet
